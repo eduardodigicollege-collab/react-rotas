@@ -5,8 +5,14 @@ import Valores from "../components/Valores";
 import Banner2 from "../assets/banner_06 1.png";
 import Galeria from "../components/Galeria";
 import Cardapio from "../components/Cardapio";
+import FormLead from "../components/FormLead";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+
+    
+
+
     return (
         <>
             <Banner
@@ -25,6 +31,7 @@ const Home = () => {
             />
             <Galeria/>
             <Cardapio/>
+            <FormLead/>
         </>
 
 
